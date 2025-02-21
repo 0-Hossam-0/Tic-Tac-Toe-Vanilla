@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+}
+table tr td{
+    border: solid black 3px;
+    background-color: hsl(346, 100%, 57%);
+    width: 6rem;
+    height: 6rem;
+    color: hsl(0, 0%, 100%);
+    font-size: 3rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border:none;
+}
+table{
+    border-spacing: 0.3rem;
+}
+
+#xo{
+    background-color: hsl(346, 100%, 57%);
+    width: 98.5%;
+    margin-left:3px;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    margin-bottom:0.5rem;
+}
+span{
+color: hsl(63, 100%, 50%);
+}
+
+table tr td:hover{
+    background-color: rgb(65, 62, 62);
+}
+
+table tr td:active{
+    background-color: rgb(94, 86, 86);
+}
